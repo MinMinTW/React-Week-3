@@ -19,7 +19,7 @@ const defaultModalState = {
 };
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
+  const [isAuth, setIsAuth] = useState(true);
 
   
   const [products, setProducts] = useState([]);
